@@ -183,4 +183,87 @@ nav ul li a:hover {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: #343a40;
-    text
+    text-align: center;
+}
+
+.about-us-content h3, .services-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    color: #007bff;
+    font-size: 1.75rem;
+}
+
+.about-us-content ul, .services-content ul {
+    list-style: disc;
+    margin-left: 25px;
+    margin-bottom: 1.5rem;
+    color: #495057;
+}
+
+/* Services Page Specific Image Styling */
+.services-content .service-detail img {
+    max-width: 450px; /* Set max-width to match hero image */
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Contact Us Specific Styling */
+.google-form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    margin-top: 30px;
+    line-height: 1.7;
+    color: #495057;
+}
+
+.contact-details h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px; /* Add some space above the footer */
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design (Basic Example) */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    .hero-image img {
+        max-width: 80%;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
